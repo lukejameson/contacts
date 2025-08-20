@@ -2,7 +2,7 @@
 
 "The lens-free view of your clusters."
 
-Contacts is a Docker-based web application that provides a Kubernetes dashboard inspired by Lens, but browser-based and built with Angular (frontend) and .NET 8 (backend).
+Contacts is a Docker-based web application that provides a Kubernetes dashboard inspired by Lens, but browser-based and less laggy
 
 ## Key Features
 
@@ -15,7 +15,7 @@ Contacts is a Docker-based web application that provides a Kubernetes dashboard 
 ## Tech Stack
 
 - Frontend: Angular
-- Backend: .NET 8 Web API
+- Backend: .NET 9 Web API
 - Kubernetes Client: KubernetesClient (C#)
 - Deployment: Docker + Docker Compose
 
@@ -24,7 +24,7 @@ Contacts is a Docker-based web application that provides a Kubernetes dashboard 
 ```
 contacts/
 ├── frontend/          # Angular application
-├── backend/           # .NET 8 Web API
+├── backend/           # .NET 9 Web API
 ├── k8s/               # Kubernetes manifests
 ├── docker-compose.yml # Docker Compose configuration
 └── README.md
