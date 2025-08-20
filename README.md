@@ -2,7 +2,7 @@
 
 "The lens-free view of your clusters."
 
-Contacts is a Docker-based web application that provides a Kubernetes dashboard inspired by Lens, but browser-based and less laggy
+Contacts is a Docker-based web application that provides a Kubernetes dashboard inspired by Lens, but browser-based and less laggy.
 
 ## Key Features
 
